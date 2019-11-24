@@ -1,0 +1,40 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-burger {
+  display: none;
+}
+@media (max-width: 960px) {
+  .nav {
+    display: none;
+  }
+  .nav-burger {
+    display: flex;
+    /* height: 20px; */
+    width: 50px;
+  }
+}
+.nav-burger img {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item {
+  color: #ffffff;
+  font-family: "Avenir Next Rounded Std";
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.97px;
+
+  padding-left: 60px;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #fed136;
+}

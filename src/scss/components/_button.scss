@@ -1,0 +1,25 @@
+.btn-footer {
+  width: 182px;
+  height: 49px;
+  border-radius: 3px;
+  border: solid 1.5px #a2ca28;
+  background-color: #a2ca28;
+  color: #fff;
+  /* border: none; */
+}
+
+.btn-footer:hover {
+  background-color: white;
+  color: #a2ca28;
+}
+.btn-footer::after {
+  content: url(../../images/fa-chevron-circle-right.png);
+
+  position: absolute;
+  right: 25px;
+  height: 10px;
+  width: auto;
+}
+button {
+  position: relative;
+}

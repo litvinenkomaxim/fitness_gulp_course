@@ -1,0 +1,138 @@
+@media (max-width: 640px) {
+  .grid-header {
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .logo figure {
+    width: 80px;
+    height: 100%;
+  }
+
+  .hero-wrapper {
+    margin: 70px 0 0 0;
+    width: auto;
+  }
+
+  .hero-title {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 12px;
+  }
+
+  .hero-description {
+    font-size: 12px;
+    font-weight: 700;
+    padding-right: 30px;
+    letter-spacing: 3px;
+    padding-bottom: 30px;
+  }
+
+  .green-cards-grid {
+    padding-top: 10px;
+    margin: 0 -10px;
+  }
+
+  .grid-item-card {
+    padding: 10px;
+    margin-bottom: 19px;
+  }
+
+  .card-img > img {
+    height: 30px;
+  }
+
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .card-text {
+    font-size: 12px;
+    margin-bottom: 20px;
+    flex-grow: 1;
+  }
+
+  .grid-style-left {
+    height: auto;
+  }
+
+  .first-link {
+    padding-bottom: 20px;
+  }
+
+  .card-first {
+    padding-top: 30px;
+  }
+
+  .eat-card-left {
+    padding-top: 30px;
+  }
+  .style-title {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 30px 0 15px 45px;
+    /* margin-bottom: 30px; */
+  }
+
+  .style-description {
+    font-size: 13px;
+    line-height: 21px;
+    max-width: 612px;
+    margin-left: 60px;
+    padding-bottom: 20px;
+  }
+
+  .grid-item-eat-left {
+    background-color: #fff;
+    height: auto;
+    padding: 0 30px 50px 30px;
+  }
+
+  .grid-item-eat-right {
+    height: auto;
+  }
+
+  .section-back-idea {
+    height: auto;
+  }
+
+  .grid-idea {
+    padding-top: 40px;
+    padding-bottom: 90px;
+    flex-wrap: wrap;
+  }
+
+  .grid-item-footer:last-child {
+    padding-left: 0px;
+  }
+
+  .form-name-footer,
+  .form-email-footer,
+  .btn-footer,
+  input {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .grid-form {
+    padding-bottom: 50px;
+  }
+
+  .grid-item-footer:first-child {
+    padding-right: 0px;
+  }
+
+  .grid-item-footer {
+    margin-bottom: 15px;
+  }
+
+  .footer-grid-title {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+}

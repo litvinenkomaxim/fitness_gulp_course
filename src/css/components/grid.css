@@ -1,0 +1,77 @@
+.grid-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.grid-header {
+  flex-wrap: wrap;
+  padding-top: 45px;
+  padding-left: 51px;
+  padding-right: 70px;
+  align-items: center;
+}
+
+.grid {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.grid-life {
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.grid-style-left {
+  background: #fff;
+  height: 310px;
+  flex-wrap: wrap;
+}
+
+.grid-style-right {
+  background-color: #a2ca28;
+  box-shadow: 0 0 62px rgba(0, 0, 0, 0.6);
+}
+
+.grid-item-eat {
+  height: 359px;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.grid-item-eat-left {
+  background-color: #fff;
+  height: 310px;
+  padding: 50px 67px 96px 42px;
+}
+
+.grid-item-eat-right {
+  height: 310px;
+  background-color: #a2ca28;
+}
+
+.grid-idea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 240px;
+  padding-bottom: 270px;
+  flex-wrap: wrap;
+}
+
+.green-cards-grid {
+  padding-top: 95px;
+  margin: 0 -26px;
+}
+
+.grid-form {
+  flex-wrap: wrap;
+  padding-bottom: 500px;
+}
